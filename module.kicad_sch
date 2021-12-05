@@ -28,7 +28,8 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)           (stroke (width 1.27) (type default) (color 0 0 0 0))
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default) (color 0 0 0 0))
           (fill (type none))
         )
       )
@@ -291,6 +292,12 @@
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/e86cc6b9-cf0f-4170-879a-926455bb24c0"
       (reference "#PWR0139") (unit 1) (value "GND") (footprint "")
     )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/80285593-ed90-47de-b6a7-3ed53675a24f"
+      (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/81228774-cbeb-48e5-919b-6059df44a6a1"
+      (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d09a3a17-149a-40ba-aa21-23cd988fd327/a511630e-645d-4e41-944e-21215e9d99b9"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -338,6 +345,21 @@
     )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/bbd35b1a-858d-4baf-9208-32899060d949"
       (reference "C15") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/657524cf-19f8-4fe8-98d1-5323a6b060a5"
+      (reference "C16") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/8bcb0fae-5c71-4492-814a-b606c7e8db7c"
+      (reference "C17") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/69e3dc9d-8db9-4903-bfbb-f3e01cb02110"
+      (reference "C18") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/2e085fbc-d639-4cbb-a796-16497140f97e"
+      (reference "C19") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/8ad6fe9d-1096-4307-a922-4bcdbe94dca9"
+      (reference "C20") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/d0ff162a-baf0-4fb1-95ea-97f62f8c4430"
       (reference "C201") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -435,6 +457,12 @@
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/fabe1427-2455-44a2-afa7-c5a16e26c1e4"
       (reference "L3") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_TDK_NLV25_2.5x2.0mm")
     )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/cb60a828-c0c5-49a0-8232-92ca4f400b91"
+      (reference "L4") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_0603_1608Metric")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/6e5bba3c-2676-40de-98f9-fc7c1ade0310"
+      (reference "L5") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_0603_1608Metric")
+    )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/04275a8a-f8df-467b-aa64-3c80806c1329"
       (reference "Q1") (unit 1) (value "BSS84") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
@@ -461,6 +489,12 @@
     )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/b314f5eb-e66e-4ab0-b735-860124cff584"
       (reference "R8") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/6647c0f1-2487-45b8-b421-e3e13b4f8605"
+      (reference "R9") (unit 1) (value "1") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/a08b6675-1d1b-400c-82a2-9d262d1fdd7a"
+      (reference "R10") (unit 1) (value "1") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/0e0a6721-7460-4859-8203-4b61b1169f73/63e32851-9a4d-4e88-9999-60c8959ebf54"
       (reference "RN1") (unit 1) (value "27") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
