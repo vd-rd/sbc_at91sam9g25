@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid f9052a23-a9ac-4995-b13e-9ff37e7218df)
 
@@ -360,6 +360,12 @@
     )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/8ad6fe9d-1096-4307-a922-4bcdbe94dca9"
       (reference "C20") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/01c30497-512b-4a92-8844-5384540c71cb"
+      (reference "C21") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/755fe548-236e-40a8-bc53-acecd72b9154"
+      (reference "C22") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/d0ff162a-baf0-4fb1-95ea-97f62f8c4430"
       (reference "C201") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")

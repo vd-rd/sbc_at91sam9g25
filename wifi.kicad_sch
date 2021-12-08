@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid 5a6ee33a-c3ee-47dc-a61e-f61c538b10ac)
 
@@ -333,7 +333,7 @@
   )
   (wire (pts (xy 130.81 154.94) (xy 126.365 154.94))
     (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid a8b4245d-65fe-4663-b9da-8f5063e0b4db)
+    (uuid a8b4245d-65fe-4663-b9da-8f5063e0b4dc)
   )
   (wire (pts (xy 130.81 50.8) (xy 107.95 50.8))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -341,7 +341,7 @@
   )
   (wire (pts (xy 107.95 50.8) (xy 107.95 49.53))
     (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid a94c2fa6-02d4-4abb-992d-d226c05fc529)
+    (uuid a94c2fa6-02d4-4abb-992d-d226c05fc52a)
   )
   (wire (pts (xy 53.34 59.69) (xy 130.81 59.69))
     (stroke (width 0) (type solid) (color 0 0 0 0))
