@@ -200,7 +200,7 @@
     (path "/d09a3a17-149a-40ba-aa21-23cd988fd327/70b80917-8e66-48bf-9410-9c788b0c2d82"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
-    (path "/0e0a6721-7460-4859-8203-4b61b1169f73/9eb20d88-5dcf-43dc-80b6-fb022e228f46"
+    (path "/0e0a6721-7460-4859-8203-4b61b1169f73/5f4afde7-e0bf-42ff-8f50-8d38f27d290c"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
     (path "/0e0a6721-7460-4859-8203-4b61b1169f73/fe509683-abfc-42fd-b2bf-405f2d1deb7f"
@@ -428,8 +428,8 @@
     (path "/0e0a6721-7460-4859-8203-4b61b1169f73/8a68e4cd-233f-4fbe-bf50-9d1f8510efc9"
       (reference "J5") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical")
     )
-    (path "/0e0a6721-7460-4859-8203-4b61b1169f73/9d496a6f-dcd0-4fa3-bf81-6422526b857b"
-      (reference "J6") (unit 1) (value "Conn_2Rows-45Pins_Shielded") (footprint "Connector_FFC-FPC:Hirose_FH12-45S-0.5SH_1x45-1MP_P0.50mm_Horizontal")
+    (path "/0e0a6721-7460-4859-8203-4b61b1169f73/e9b12c2d-508e-430e-b03f-061aaffa52e8"
+      (reference "J6") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x22_P1.27mm_Vertical")
     )
     (path "/0e0a6721-7460-4859-8203-4b61b1169f73/bafada84-260b-4b7e-97f2-17fa763baf2e"
       (reference "J7") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical")
