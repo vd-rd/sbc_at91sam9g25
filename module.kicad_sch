@@ -284,12 +284,6 @@
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/5f0adfc6-02bf-4110-8274-542087e301d0"
       (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
     )
-    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/19bb1ab5-5e24-435d-bed4-bd79ad966513"
-      (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/6e2a4d25-4a06-42fe-b293-f1aa542265a9"
-      (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
-    )
     (path "/d09a3a17-149a-40ba-aa21-23cd988fd327/a511630e-645d-4e41-944e-21215e9d99b9"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -383,12 +377,6 @@
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/ae625103-b3a2-4c07-81db-62bf507b5115"
       (reference "C839") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/936737c8-5353-46a9-b768-43156aae2b87"
-      (reference "C901") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/cd80aa39-e9fa-4c9d-91f7-73b955f1e77d"
-      (reference "C902") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/b48f9117-8bc9-42cd-ba60-21b63ba1cc59"
       (reference "C915") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -443,9 +431,6 @@
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/36e574a3-1858-422e-bb58-3897619a6081"
       (reference "L2") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
     )
-    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/fe542583-bb65-47a6-97fd-3f43911023f5"
-      (reference "L3") (unit 1) (value "22uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-3010")
-    )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/6080810b-a589-4b58-bcfd-5200b8feae91"
       (reference "L201") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
     )
@@ -478,9 +463,6 @@
     )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/2a77b02a-4cd0-455b-8422-3eb8919ac7d7"
       (reference "R15") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/3c5f2bb4-56f4-4f22-950b-43729f3dcfc5"
-      (reference "R19") (unit 1) (value "10") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/42ec9d3e-272a-42f6-a0dd-4775dc7ac54c"
       (reference "R804") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -592,9 +574,6 @@
     )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/e51a2e2c-8509-4cbf-818c-6f47cf15fd20"
       (reference "U800") (unit 1) (value "ACT8945AQJ305-T") (footprint "Package_DFN_QFN:TQFN-40-1EP_5x5mm_P0.4mm_EP3.5x3.5mm_ThermalVias")
-    )
-    (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/f16577f6-cc73-4c8c-92d7-ead1178d063a"
-      (reference "U900") (unit 1) (value "AP3019") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/1356f859-67fd-41af-be8e-a891d5300cd5"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
