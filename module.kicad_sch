@@ -422,9 +422,6 @@
     (path "/0e0a6721-7460-4859-8203-4b61b1169f73/bafada84-260b-4b7e-97f2-17fa763baf2e"
       (reference "J7") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical")
     )
-    (path "/d09a3a17-149a-40ba-aa21-23cd988fd327/b1bf0979-c741-4128-a9bf-b3f4110bbcb0"
-      (reference "J8") (unit 1) (value "RJ45_LED") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE538X")
-    )
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/5ddd1601-6f3c-4d22-9b5d-e0edd35521db"
       (reference "L1") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
     )
@@ -542,9 +539,6 @@
     (path "/768bac64-20ad-4013-964e-6dfe99cddf4f/67d48098-a0af-4656-8856-8b70fae37bc8"
       (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/d09a3a17-149a-40ba-aa21-23cd988fd327/5419816b-0339-48c1-be23-858bdb713992"
-      (reference "TR1") (unit 1) (value "PT61017PEL") (footprint "Transformer_SMD:Transformer_Ethernet_Bourns_PT61017PEL")
-    )
     (path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/1c9a178a-45c9-44be-86e0-090f9bbb1fc2"
       (reference "U1") (unit 1) (value "AT91SAM9G15") (footprint "microchip:AT91SAM9G10")
     )
@@ -565,6 +559,9 @@
     )
     (path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/5235627c-f0ba-4f52-a80d-db51a0db4666"
       (reference "U2") (unit 1) (value "DDR2-x16") (footprint "winbond:BGA-84_9x15_8.0x12.5mm")
+    )
+    (path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/49638a99-98df-41f6-a965-963a43611608"
+      (reference "U3") (unit 1) (value "nand-flash-tsop48") (footprint "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm")
     )
     (path "/d09a3a17-149a-40ba-aa21-23cd988fd327/9ce3640d-096f-4356-9b90-0e405a12b453"
       (reference "U4") (unit 1) (value "RTL8723BS") (footprint "sdio:lga44_12x12mm_P0.9")
