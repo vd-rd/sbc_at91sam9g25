@@ -477,11 +477,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -504,6 +507,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -551,7 +555,7 @@
         "microvia_drill": 0.1,
         "name": "ddr-ac",
         "pcb_color": "rgb(255, 90, 21)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.145,
         "tuning_profile": "",
@@ -569,7 +573,7 @@
         "microvia_drill": 0.1,
         "name": "ddr-data-lower",
         "pcb_color": "rgb(194, 45, 255)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -587,7 +591,7 @@
         "microvia_drill": 0.1,
         "name": "ddr-data-upper",
         "pcb_color": "rgb(3, 255, 32)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -605,7 +609,7 @@
         "microvia_drill": 0.1,
         "name": "lcd-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -623,7 +627,7 @@
         "microvia_drill": 0.1,
         "name": "power-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": "",
@@ -641,7 +645,7 @@
         "microvia_drill": 0.1,
         "name": "rgmii-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -652,14 +656,21 @@
       {
         "name": "sdio-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "sdio1-lines",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "usb-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -808,6 +819,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -878,6 +893,7 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -910,6 +926,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -924,14 +941,16 @@
       {
         "filename": "module.kicad_sch",
         "name": "module",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "f9052a23-a9ac-4995-b13e-9ff37e7218df"
       }
-    ]
+    ],
+    "used_designators": "U6,C912-914,AE1,#PWR18-20",
+    "variants": []
   },
   "sheets": [
     [
       "f9052a23-a9ac-4995-b13e-9ff37e7218df",
-      "Root"
+      "module"
     ],
     [
       "768bac64-20ad-4013-964e-6dfe99cddf4f",
@@ -948,10 +967,6 @@
     [
       "0e0a6721-7460-4859-8203-4b61b1169f73",
       "IO expansions"
-    ],
-    [
-      "d09a3a17-149a-40ba-aa21-23cd988fd327",
-      "wifi"
     ]
   ],
   "text_variables": {},
