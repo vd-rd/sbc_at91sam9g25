@@ -1049,28 +1049,16 @@
 		(uuid "9546d271-2f2f-4a0d-88ae-215397098e5b")
 	)
 	(junction
-		(at 59.69 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99b57535-5981-42b8-96db-fd9104e5ef1a")
-	)
-	(junction
-		(at 52.07 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a31c9db5-5be0-4433-9308-ec6436274c29")
-	)
-	(junction
 		(at 67.31 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4358dc9-792e-4923-892b-fa616183ec36")
+		(uuid "d79801c4-7a10-40f1-835c-922473bb817a")
 	)
 	(junction
-		(at 59.69 149.86)
+		(at 59.69 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eebe27ef-c61c-4e01-b469-2f1ef25de46c")
+		(uuid "dd86a418-f741-4083-8345-261d20c2fc8c")
 	)
 	(polyline
 		(pts
@@ -1094,16 +1082,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 144.78) (xy 59.69 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f814baf-e75e-417f-99cf-74533fb43d32")
-	)
-	(wire
-		(pts
 			(xy 67.31 138.43) (xy 76.2 138.43)
 		)
 		(stroke
@@ -1122,16 +1100,6 @@
 		)
 		(uuid "1584a946-3b43-44f1-8797-b7052f19a938")
 	)
-	(wire
-		(pts
-			(xy 52.07 138.43) (xy 59.69 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d9d9bc-ef56-4ef7-9f93-7fde32e29d7f")
-	)
 	(polyline
 		(pts
 			(xy 167.64 71.12) (xy 167.64 102.87)
@@ -1144,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 144.78) (xy 52.07 138.43)
+			(xy 59.69 144.78) (xy 59.69 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1214,6 +1182,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 138.43) (xy 67.31 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7def3002-517a-4c37-94b4-3c276ac9d33c")
+	)
+	(wire
+		(pts
+			(xy 54.61 140.97) (xy 76.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86588191-68c5-47ba-8f4c-067b3fe2c848")
+	)
+	(wire
+		(pts
 			(xy 73.66 146.05) (xy 73.66 149.86)
 		)
 		(stroke
@@ -1221,16 +1209,6 @@
 			(type default)
 		)
 		(uuid "8afdb3e1-1508-45ba-9a53-eebdefbe9be8")
-	)
-	(wire
-		(pts
-			(xy 52.07 149.86) (xy 59.69 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5740a6-383d-4a23-bb23-616b954563e7")
 	)
 	(wire
 		(pts
@@ -1244,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 138.43) (xy 52.07 138.43)
+			(xy 48.26 138.43) (xy 59.69 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1281,6 +1259,16 @@
 			(type default)
 		)
 		(uuid "b1a8e390-6fb1-4d05-8e8e-396fd527f947")
+	)
+	(wire
+		(pts
+			(xy 54.61 143.51) (xy 76.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3906d78-6e93-45f4-b736-9203b439a1f9")
 	)
 	(wire
 		(pts
@@ -1321,16 +1309,6 @@
 			(type default)
 		)
 		(uuid "cd59438d-0f38-447f-8e09-9edf2484790b")
-	)
-	(wire
-		(pts
-			(xy 59.69 138.43) (xy 67.31 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ec8e08-f87f-4064-b267-7e3b9d13916c")
 	)
 	(polyline
 		(pts
@@ -1375,6 +1353,54 @@
 		(uuid "0c9df6e1-62bb-49b7-8489-12d23971bdf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.7669 138.5094 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB1-D-"
+		(shape bidirectional)
+		(at 54.61 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30f61a62-a176-4696-8321-4e02be5a175e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.8579 143.4306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB1-D+"
+		(shape bidirectional)
+		(at 54.61 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "feb14095-35fa-43a9-b1c7-d62415d65d27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.8579 140.8906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,7 +1979,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 52.07 147.32 0)
+		(at 59.69 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1963,87 +1989,6 @@
 		(dnp no)
 		(uuid "88aa8bf7-09b7-4685-84da-b88beee10814")
 		(property "Reference" "C912"
-			(at 52.3451 145.6934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 52.2966 148.8795 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 52.07 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78417e87-8461-4575-8ab6-fda3046bce62")
-		)
-		(pin "2"
-			(uuid "9ddb4325-a703-408d-a883-abc61f548dc0")
-		)
-		(instances
-			(project "module"
-				(path "/f9052a23-a9ac-4995-b13e-9ff37e7218df"
-					(reference "C912")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 59.69 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c97168ea-157e-4cd5-bfc6-b3d8671cd7f6")
-		(property "Reference" "C913"
 			(at 59.9651 145.6934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2099,15 +2044,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "98fad9e0-6656-4710-ad3a-81d9e628e961")
+			(uuid "78417e87-8461-4575-8ab6-fda3046bce62")
 		)
 		(pin "2"
-			(uuid "f667e24c-90dd-4db0-97e7-922e6b1fe4a2")
+			(uuid "9ddb4325-a703-408d-a883-abc61f548dc0")
 		)
 		(instances
 			(project "module"
 				(path "/f9052a23-a9ac-4995-b13e-9ff37e7218df"
-					(reference "C913")
+					(reference "C912")
 					(unit 1)
 				)
 			)
