@@ -7379,7 +7379,7 @@
 			)
 		)
 	)
-	(global_label "LED_BLUE"
+	(global_label "LED-BLUE"
 		(shape input)
 		(at 200.66 140.97 180)
 		(fields_autoplaced yes)
@@ -7391,7 +7391,7 @@
 		)
 		(uuid "09968ca1-28f5-4a80-879e-abec764dc5c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.0545 140.8906 0)
+			(at 187.8777 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,7 +8651,7 @@
 			)
 		)
 	)
-	(global_label "LED_GREEN"
+	(global_label "LED-GREEN"
 		(shape input)
 		(at 200.66 135.89 180)
 		(fields_autoplaced yes)
@@ -8663,7 +8663,7 @@
 		)
 		(uuid "986d24c4-ad9b-4b8b-a934-797db95042c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.6636 135.8106 0)
+			(at 186.4868 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9323,7 +9323,7 @@
 			)
 		)
 	)
-	(global_label "LED_RED"
+	(global_label "LED-RED"
 		(shape input)
 		(at 200.66 130.81 180)
 		(fields_autoplaced yes)
@@ -9335,7 +9335,7 @@
 		)
 		(uuid "e59e7d02-2e65-4b55-9304-b03e70b032a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1431 130.7306 0)
+			(at 188.9663 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

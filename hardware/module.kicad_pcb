@@ -231,6 +231,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/bafada84-260b-4b7e-97f2-17fa763baf2e")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -566,6 +572,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/05bab68d-7cf4-41b6-ad5b-557e50c6de85")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -722,6 +734,16 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/e9b12c2d-508e-430e-b03f-061aaffa52e8")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "17" "19" "21" "23" "25" "27"
+					"29" "31" "33" "35" "37" "39" "41" "43" "2" "4" "6" "8" "10" "12" "14"
+					"16" "18" "20" "22" "24" "26" "28" "30" "32" "34" "36" "38" "40" "42"
+					"44"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1454,6 +1476,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/9232d3ae-d48b-4839-9b02-bc96c7c01b13")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1612,6 +1640,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/eaccff82-7420-4515-a713-558775939680")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1770,6 +1804,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/d617e96e-5d6e-4695-b690-49dc70fe08bf")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1916,6 +1956,14 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/168ec5a3-bbd2-47b7-b7ed-206ba554b3b1")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "S1" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2175,9 +2223,6 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "SHIELD_S1")
-			(pintype "passive")
 			(uuid "93092171-8c78-4783-9e07-b37fb045b852")
 		)
 		(pad "SH" thru_hole oval
@@ -2187,9 +2232,6 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "SHIELD_S1")
-			(pintype "passive")
 			(uuid "0ae0798e-cbd4-4f77-936e-4e485db47a05")
 		)
 		(pad "SH" thru_hole oval
@@ -2199,9 +2241,6 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "SHIELD_S1")
-			(pintype "passive")
 			(uuid "c64ff64e-cb74-4679-801d-4f545b75c8a9")
 		)
 		(pad "SH" thru_hole oval
@@ -2211,9 +2250,6 @@
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "SHIELD_S1")
-			(pintype "passive")
 			(uuid "596cf3fb-31ac-429a-9878-311f6c4ed885")
 		)
 		(embedded_fonts no)
@@ -2300,6 +2336,12 @@
 		(path "/88aa8bf7-09b7-4685-84da-b88beee10814")
 		(sheetname "/")
 		(sheetfile "module.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2446,6 +2488,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/b6a6aa5e-1bb6-4536-b9f0-c514b416e81a")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2719,6 +2767,12 @@
 		(path "/0761d8d1-4c1b-4571-b091-f7d161f243e4")
 		(sheetname "/")
 		(sheetfile "module.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "2" "3" "1" "6" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3015,6 +3069,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/9b834131-88b8-4ded-9a9e-686338e287c4")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3173,6 +3233,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/77978483-ed47-44ff-90df-cd015626dc43")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3318,6 +3384,12 @@
 		(path "/12110042-ee07-4147-918a-5d886be0ffdd")
 		(sheetname "/")
 		(sheetfile "module.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3712,6 +3784,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/18b5b5d8-e9d5-4702-a6a9-6c2334fb148b")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3870,6 +3948,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/816493d3-aba0-421c-8980-979a2434c754")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4135,6 +4219,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/71a8234c-b358-49e7-a9a4-893e496c4611")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4470,6 +4560,12 @@
 		(path "/725d8897-2b2a-430f-8ea3-27ed381bdf19")
 		(sheetname "/")
 		(sheetfile "module.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4647,10 +4743,29 @@
 				)
 			)
 		)
+		(property "Field4" "Farnell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fe3b72d-864c-4f40-838e-9c4585164261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/7edc601c-839d-4dfe-b12f-c52061691caf")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4809,6 +4924,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/755fe548-236e-40a8-bc53-acecd72b9154")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4967,6 +5088,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/d0ff162a-baf0-4fb1-95ea-97f62f8c4430")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5124,6 +5251,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/8bb23bb6-a3a9-47ae-b4ad-b9f4bcf2d2a8")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5391,6 +5524,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/6bc2e78f-541b-4763-8d7f-9d37c85fbce4")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5535,6 +5674,19 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/5235627c-f0ba-4f52-a80d-db51a0db4666")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "F3" "E8" "F7" "G8" "G2" "H7" "H3" "H1" "H9" "F1" "F9" "B3" "A8"
+					"B7" "C8" "C2" "D7" "D3" "D1" "D9" "B1" "B9" "E2" "A2" "R7" "R3" "K9"
+					"J2" "E9" "G1" "G9" "G7" "C9" "C7" "C3" "C1" "G3" "A9" "M9" "R1" "A1"
+					"J9" "E1" "J1" "J7" "A7" "E7" "F2" "D2" "H8" "B8" "D8" "H2" "F8" "B2"
+					"P9" "N1" "A3" "E3" "J3" "K8" "J8" "K2" "K3" "K7" "L7" "L8" "M8" "M3"
+					"M7" "N2" "N8" "N3" "N7" "P2" "P8" "P3" "M2" "P7" "R2" "R8" "L2" "L3"
+					"L1"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6606,6 +6758,12 @@
 		(path "/d55c5f49-40e6-4071-801f-dac3c94c314d")
 		(sheetname "/")
 		(sheetfile "module.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6783,10 +6941,29 @@
 				)
 			)
 		)
+		(property "Field4" "Farnell"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "486dc7fb-d79b-4383-9029-f7209bd56e1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/2531199b-7e63-4a1b-b6a7-3127b10cc4e7")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6931,6 +7108,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/cf494e21-d569-478d-9d77-374c9d8d677c")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "P1" "P2" "P3" "P4" "P5" "P6" "P7" "P8" "CD1" "CD2" "G1" "G2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7294,6 +7477,57 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/23ff35df-ec3a-46ea-b75b-d608537aa000")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "L3" "P1" "L4" "N4" "T3" "R1" "R4" "R3" "P4" "U3" "T1" "U1" "T2"
+					"T4" "U2" "U4" "P5" "R5" "U5" "T5" "U6" "T6" "R6" "U7" "T7" "T8" "R7"
+					"P8" "U8" "R9" "R8" "U9"
+				)
+			)
+			(unit
+				(name "B")
+				(pins "D3" "D4" "D2" "E4" "D1" "E3" "B3" "C2" "C5" "C1" "B2" "A3" "B4"
+					"A2" "C4" "C3" "A1" "B1" "D5"
+				)
+			)
+			(unit
+				(name "C")
+				(pins "E2" "F4" "F3" "H2" "E1" "G4" "F2" "F1" "G1" "G3" "G2" "H3" "J3"
+					"L2" "H1" "J2" "J1" "L1" "K2" "N3" "K1" "M3" "P3" "J4" "K3" "M2" "P2"
+					"M1" "K4" "N1" "R2" "N2"
+				)
+			)
+			(unit
+				(name "D")
+				(pins "P13" "R14" "R13" "P15" "P12" "P14" "N14" "R15" "M14" "N16" "N17"
+					"N15" "K15" "M15" "L14" "M16" "L16" "L15" "K17" "J17" "K16" "J16"
+				)
+			)
+			(unit
+				(name "E")
+				(pins "D7" "U10" "T9" "T10" "U11" "R10" "T11" "P10" "B7" "P9" "A7" "D8"
+					"R11" "P11" "U14" "U15" "R17" "P17" "T14" "T15" "R16" "P16" "L17" "M17"
+					"A6" "A5" "T12" "U12"
+				)
+			)
+			(unit
+				(name "F")
+				(pins "K9" "K8" "H14" "K10" "J8" "H8" "F14" "D13" "D10" "J10" "J9" "H10"
+					"H9" "H4" "P7" "P6" "M4" "K14" "J14" "B5" "B6" "A4" "C6" "D6" "U17"
+					"U16" "T17" "T16" "T13" "U13" "R12"
+				)
+			)
+			(unit
+				(name "G")
+				(pins "J15" "H16" "H15" "H17" "G17" "G16" "F17" "E17" "F16" "G15" "G14"
+					"F15" "D17" "C17" "E16" "D16" "C16" "B17" "E15" "E14" "D11" "C11" "B12"
+					"C8" "B11" "A12" "C10" "D14" "D15" "A16" "B16" "A17" "B15" "C14" "B14"
+					"A15" "C15" "D12" "C13" "A14" "B13" "A13" "C12" "B9" "B8" "D9" "C9"
+					"C7" "A8" "A10" "B10" "A11" "A9"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9564,6 +9798,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/c5e4e768-8501-4c4e-aa68-d6a0bd56eedf")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9625,7 +9865,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "LED_BLUE")
+			(net "LED-BLUE")
 			(pintype "passive")
 			(uuid "cbc72073-c4b2-4139-b77d-a9e78eef05e1")
 		)
@@ -9722,6 +9962,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/ce799d63-b7a1-4914-bd9d-26987db1922d")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9880,6 +10126,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/0c4b3885-a699-47f3-85a7-809d87d880b0")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10038,6 +10290,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/931922f7-ca86-4540-b324-6c7bddcd1736")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10194,6 +10452,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/d10a9143-3426-4b8d-ba74-67c40397a4f6")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10352,6 +10616,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/da239060-9c4f-40dc-ae62-678a46c1169f")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10510,6 +10780,12 @@
 		(path "/1e1ec832-067a-4651-96e4-5eb37b006de0")
 		(sheetname "/")
 		(sheetfile "module.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10668,6 +10944,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/aaf13d81-6a39-4d17-b47e-787baaaf0b64")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10826,6 +11108,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/8d3afaed-9ac0-4fb5-a37d-5256e059c76f")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10982,6 +11270,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/cf545883-9fc7-4312-9558-d83e1cc59401")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11138,6 +11432,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/11482309-18cd-4b51-9b42-b27fad790122")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11296,6 +11596,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/72f6b963-2d46-466b-baf8-d5abc5d71e22")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11452,6 +11758,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/a1a12c98-c6d7-4c80-a898-f729405741bb")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11596,6 +11908,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/db31d05f-5f47-40b4-b08c-99acc13be3c9")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11812,6 +12130,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/e67e8c5a-fddd-4bbb-aec1-5e6151dd9852")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12032,10 +12356,29 @@
 				)
 			)
 		)
+		(property "Field4" "Farnell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db77be05-6f14-454f-b32a-95af2c8919d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/c1d8d648-3e8d-4553-8f0f-9390bedaca18")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12182,6 +12525,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/aa253c98-3890-46e9-ba06-9e2c62b5964a")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12482,6 +12831,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/9e8c62f9-ecef-4f64-bf28-ac34ee73376c")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12640,6 +12995,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/f6a44ea7-ca68-45d6-a313-cde56cc7cdb0")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13001,6 +13362,14 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/919cbda6-8171-4604-9a61-c17cc54fa504")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "20" "4" "3" "21" "15" "2" "5" "14" "25" "23" "1" "24" "22" "8"
+					"6" "7" "9" "11" "13" "12" "10" "18" "19" "17" "16"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13799,6 +14168,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/8a68e4cd-233f-4fbe-bf50-9d1f8510efc9")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14136,6 +14511,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/342d5aa6-d10c-4544-855c-04d5e0e4a6a1")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14292,6 +14673,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/f8d95b60-8cf9-4fec-83fe-ad1fd586598a")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14435,6 +14822,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/2c6921d8-8ecb-432b-91f3-6828552ae640")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14767,6 +15160,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/a06e64ba-a2bd-482a-b226-ad8f1d1e364e")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "4" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15169,6 +15568,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/f2f0a31f-4833-46d5-a815-9eb04691383c")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15327,6 +15732,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/fea0c68e-38c9-4688-bcf7-80aa491f2d6e")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15485,6 +15896,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/69ae07f8-39c2-490f-8bc9-b61e8af282b4")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15643,6 +16060,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/39150073-e9f0-4e44-bfbf-7c14b76107b9")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15800,6 +16223,14 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/49638a99-98df-41f6-a965-963a43611608")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "7" "8" "9" "16" "17" "18" "19" "38" "12" "34" "37" "39" "13" "25"
+					"36" "48" "29" "30" "31" "33" "41" "42" "43" "44"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16470,6 +16901,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/2fd80e2d-eb09-4a7d-8045-9df48d8b9053")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16613,6 +17050,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/b5ef6124-166b-440f-8a1f-fb9c05eeecf5")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16945,6 +17388,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/4f179180-aaa8-4e83-8344-89b31c16e3f9")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17212,6 +17661,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/dd8f89fa-33ea-4672-8bc2-6040e69d9353")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17370,6 +17825,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/fd0c9326-634a-4b6c-8a67-63ef3701dd5c")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17526,6 +17987,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/1e82e418-31e7-4a3b-8eef-5e6a147a3b86")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17684,6 +18151,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/835eea67-f07c-4511-bc64-295a62ad4ba3")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17842,6 +18315,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/727ebad2-9aa7-4852-bbee-7316e85af8da")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17997,6 +18476,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/1356f859-67fd-41af-be8e-a891d5300cd5")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18178,6 +18663,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/75c1e9c7-cd08-40b7-bebf-1cd9dd4fc59d")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18334,6 +18825,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/02396aa6-65b8-4b3a-8840-c4fc6814bb08")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18490,6 +18987,12 @@
 		(path "/e610cb31-f3f3-4408-a54c-027436d0921c")
 		(sheetname "/")
 		(sheetfile "module.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18605,6 +19108,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/f524bab3-6ca8-4f32-b0b9-931fd8014ec7")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18666,7 +19175,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "LED_RED")
+			(net "LED-RED")
 			(pintype "passive")
 			(uuid "9f511c33-3d5e-4e11-9caa-22c4607ba840")
 		)
@@ -18763,6 +19272,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/9c481202-dc80-45b4-be16-cc07514f6b03")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18921,6 +19436,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/b4e9b40c-62c4-47bd-9d17-b28bf0b305e7")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19079,6 +19600,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/c0df46ae-14c4-4f09-9585-495ac6a48858")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19237,6 +19764,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/eac8aea4-07da-4013-9dfb-b901d67e77f1")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19395,6 +19928,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/ce579e8b-84b7-407c-a950-59fb6aefb0c4")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19615,10 +20154,29 @@
 				)
 			)
 		)
+		(property "Field4" "Farnell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caae3e93-df61-488e-8ba4-619a22d11cf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/fb6e7811-96bc-455b-8951-fd0aed8138f3")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19777,6 +20335,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/43700ad7-f811-4da0-ad41-3b94616adc21")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20288,6 +20852,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/30749d00-8b53-4d81-a792-c49abb5fa88a")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20446,6 +21016,12 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/afd02a4e-d62c-4d0f-8292-9a5c4f7ea72f")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20507,7 +21083,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "LED_GREEN")
+			(net "LED-GREEN")
 			(pintype "passive")
 			(uuid "52b6d2a8-a8e7-4602-a7e3-70f74aceec74")
 		)
@@ -20602,6 +21178,12 @@
 		(path "/962f673f-4831-49ca-a6f9-b4486bb94f3a/888f9f66-4a49-4ea0-a655-05404399ca78")
 		(sheetname "/cpu/")
 		(sheetfile "cpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20760,6 +21342,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/f29bf695-0d0d-427e-8262-d6ff26a4d953")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20918,6 +21506,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/d454bc3e-9cf0-49b6-84eb-69c774652215")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21076,6 +21670,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/91ff0a31-7ff7-41c2-ad66-3b12cac1324c")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21234,6 +21834,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/762fd0f9-0fbf-44af-a3f2-7925b6e977fa")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21397,6 +22003,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/7ebc9f34-e596-432f-a8b6-acbb7ba25990")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21544,6 +22156,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/73a6cb39-50a0-4791-9c12-a34291787bcb")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -21667,6 +22285,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/32c6d9ed-eb8c-42f8-8b2c-42a8fafcbf5a")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21831,6 +22455,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/ce766ba8-d496-4c77-8e6c-f7ae8d566fb5")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21995,6 +22625,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/ab11138d-42da-4737-9762-220dc0a232c3")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22161,6 +22797,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/fc52fa92-184a-4eb9-ac57-c666f30ba671")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22323,6 +22965,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/40b836b5-c092-4530-ac9c-5b05c9fa6503")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22485,6 +23133,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/301f287f-d72c-4fc4-9a61-2fcc4403f550")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22632,6 +23286,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/68322674-9703-4258-a1b1-79727b2ef9f4")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22738,6 +23398,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/67d48098-a0af-4656-8856-8b70fae37bc8")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22861,6 +23527,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/44db0b64-33ca-424e-8929-2778fd2eb193")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23025,6 +23697,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/01c30497-512b-4a92-8844-5384540c71cb")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23189,6 +23867,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/757e6a93-e7aa-4a87-a24f-421b1261e37c")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23353,6 +24037,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/e9ec1bd3-33b1-4027-88d0-3bdec9b1dd9c")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23517,6 +24207,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/22575cf1-2afa-4533-bc1a-498a24dbd7b8")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23681,6 +24377,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/25033233-eceb-41e8-9864-fb8f2ab7bb2c")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23843,6 +24545,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/e0f1a8c6-59c6-40eb-a81f-a0d3007a1417")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24003,6 +24711,15 @@
 		(path "/0e0a6721-7460-4859-8203-4b61b1169f73/575e8763-64a0-4b58-932c-4692396e004c")
 		(sheetname "/IO expansions/")
 		(sheetfile "io.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "17" "19" "21" "23" "25" "27"
+					"29" "31" "33" "35" "2" "4" "6" "8" "10" "12" "14" "16" "18" "20" "22"
+					"24" "26" "28" "30" "32" "34" "36"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24627,6 +25344,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/236ce9b0-31e0-4d29-8516-9b0b9c32f7f2")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -24750,6 +25473,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/fd4a945a-d048-4418-9c6d-d4376fe1b2f2")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24914,6 +25643,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/3dab242f-6d2d-4347-ae79-174a570ee275")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25061,6 +25796,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/7876479f-b875-4fb3-a990-a04749dfbefc")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -25184,6 +25925,12 @@
 		(path "/768bac64-20ad-4013-964e-6dfe99cddf4f/00754ed0-966b-4d3a-934c-56e42a5d770d")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25348,6 +26095,12 @@
 		(path "/00b5b9a0-a836-4b3c-a546-03b464dd191d/236335ec-dd96-4e6b-9a28-8e99a50cedfc")
 		(sheetname "/memory/")
 		(sheetfile "memory.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -47020,6 +47773,22 @@
 		(uuid "8563aa08-549b-44a3-865e-bcf5e2a47ca1")
 	)
 	(segment
+		(start 138 82.4)
+		(end 138.6 82.4)
+		(width 0.154)
+		(layer "F.Cu")
+		(net "VDD_BU")
+		(uuid "81ee570e-c553-493f-93ca-38d66e0a3abb")
+	)
+	(segment
+		(start 137.6 82.8)
+		(end 138 82.4)
+		(width 0.154)
+		(layer "F.Cu")
+		(net "VDD_BU")
+		(uuid "90a6b22a-e0c5-4480-87fc-cd8e4c0233b9")
+	)
+	(segment
 		(start 136.8 79.6)
 		(end 136.8 78.5)
 		(width 0.154)
@@ -47366,88 +48135,6 @@
 		(layer "B.Cu")
 		(net "GPIOA1")
 		(uuid "ec497b5f-cd72-47cc-9a94-b62a98df8445")
-	)
-	(segment
-		(start 136.8 82.8)
-		(end 137.2 82.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "ab6077bf-36d7-436c-9e29-7e7468024982")
-	)
-	(via
-		(at 137.2 82.4)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "e91ea042-4734-40db-b1ee-a2c7f3af3074")
-	)
-	(segment
-		(start 137.2 82.4)
-		(end 137.5 82.4)
-		(width 0.154)
-		(layer "B.Cu")
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "12cf1f33-0bd1-4cf4-bc9a-fb023770fa4a")
-	)
-	(segment
-		(start 137.5 82.4)
-		(end 138.4 81.5)
-		(width 0.154)
-		(layer "B.Cu")
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "373cc943-a20c-4d3c-a349-884b23fc43c4")
-	)
-	(segment
-		(start 138.4 81.5)
-		(end 138.4 80.9)
-		(width 0.154)
-		(layer "B.Cu")
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "8753546f-2e16-4ee6-bd5c-1218bbe9c15b")
-	)
-	(segment
-		(start 140.4 78.2)
-		(end 141.9 76.7)
-		(width 0.154)
-		(layer "B.Cu")
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "a077a00d-a496-49e1-9c92-6536b0fa0fe2")
-	)
-	(segment
-		(start 138.4 80.9)
-		(end 140.4 78.9)
-		(width 0.154)
-		(layer "B.Cu")
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "afcf0571-15bf-49bd-b1a5-5114a6740fd4")
-	)
-	(segment
-		(start 140.4 78.9)
-		(end 140.4 78.2)
-		(width 0.154)
-		(layer "B.Cu")
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "efaf1bbd-9d27-41ba-9e49-96a69ec3f025")
-	)
-	(segment
-		(start 141.9 76.7)
-		(end 142.8 76.7)
-		(width 0.154)
-		(layer "B.Cu")
-		(net "unconnected-(U1B-PB8-PadC5)")
-		(uuid "ffd2d8f8-5278-4100-ac2e-8c231caf3a66")
 	)
 	(segment
 		(start 136.000001 79.6)
@@ -48596,22 +49283,6 @@
 		(layer "F.Cu")
 		(net "/power/vbg")
 		(uuid "e9c5a3ab-611a-4f1a-9cf1-ba894135063d")
-	)
-	(segment
-		(start 138 82.4)
-		(end 138.6 82.4)
-		(width 0.154)
-		(layer "F.Cu")
-		(net "VDD_BU")
-		(uuid "81ee570e-c553-493f-93ca-38d66e0a3abb")
-	)
-	(segment
-		(start 137.6 82.8)
-		(end 138 82.4)
-		(width 0.154)
-		(layer "F.Cu")
-		(net "VDD_BU")
-		(uuid "90a6b22a-e0c5-4480-87fc-cd8e4c0233b9")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
