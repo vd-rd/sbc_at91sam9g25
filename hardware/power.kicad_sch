@@ -6537,12 +6537,6 @@
 		(uuid "50f4d051-b1a9-446a-a55e-4eb7778929d8")
 	)
 	(junction
-		(at 86.36 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "525bae47-2755-4425-88b0-f5c6e596b426")
-	)
-	(junction
 		(at 220.98 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6723,10 +6717,22 @@
 		(uuid "a42a9617-5ffa-4d65-8b60-cf4032c875d9")
 	)
 	(junction
+		(at 86.36 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa7132bc-0d7f-43bd-a95d-6db29186a051")
+	)
+	(junction
 		(at 256.54 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adfa32dd-7ba5-485d-8b79-d30680ef4e9f")
+	)
+	(junction
+		(at 100.33 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae5e2460-62e9-46ac-b3c9-02ea290f14da")
 	)
 	(junction
 		(at 114.3 156.21)
@@ -7456,7 +7462,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 95.25 25.4)
+			(xy 86.36 25.4) (xy 100.33 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7473,6 +7479,16 @@
 			(type default)
 		)
 		(uuid "3ee0418f-b120-40a8-9667-a8b8ad11af53")
+	)
+	(wire
+		(pts
+			(xy 100.33 25.4) (xy 107.95 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404820bd-68af-4485-b14b-d51f30d63204")
 	)
 	(wire
 		(pts
@@ -9382,7 +9398,7 @@
 	)
 	(global_label "VDD_BU"
 		(shape output)
-		(at 95.25 25.4 0)
+		(at 107.95 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9392,7 +9408,7 @@
 		)
 		(uuid "b4ce3420-7d3e-4553-a014-bf3d9c83cc93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4319 25.4 0)
+			(at 118.1319 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9904,6 +9920,83 @@
 			(project "module"
 				(path "/f9052a23-a9ac-4995-b13e-9ff37e7218df/768bac64-20ad-4013-964e-6dfe99cddf4f"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16c0b423-f4c6-4d2b-8943-0d126b72bd03")
+		(property "Reference" "#PWR029"
+			(at 100.33 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 32.2644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2e6ddea-abf8-415a-9add-026524ad1f57")
+		)
+		(instances
+			(project "module"
+				(path "/f9052a23-a9ac-4995-b13e-9ff37e7218df/768bac64-20ad-4013-964e-6dfe99cddf4f"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12946,6 +13039,88 @@
 			(project "module"
 				(path "/f9052a23-a9ac-4995-b13e-9ff37e7218df/768bac64-20ad-4013-964e-6dfe99cddf4f"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 100.33 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a626378-cd0e-4ef2-8705-286790c654c7")
+		(property "Reference" "C29"
+			(at 102.6542 27.1791 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 102.6542 29.4778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 100.33 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~{}"
+			(at 100.33 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97aee178-d7c0-47ac-942d-7533d6f4a7c1")
+		)
+		(pin "2"
+			(uuid "49ca3c0b-5e7c-4147-95ce-de6b9bb88411")
+		)
+		(instances
+			(project "module"
+				(path "/f9052a23-a9ac-4995-b13e-9ff37e7218df/768bac64-20ad-4013-964e-6dfe99cddf4f"
+					(reference "C29")
 					(unit 1)
 				)
 			)

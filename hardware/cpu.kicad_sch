@@ -6590,7 +6590,7 @@
 	)
 	(global_label "MCI1-D3"
 		(shape bidirectional)
-		(at 54.61 27.94 180)
+		(at 40.64 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6600,7 +6600,7 @@
 		)
 		(uuid "18ff0628-4f18-4b14-b0b1-ef8d370525ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.7046 27.8606 0)
+			(at 29.7346 27.8606 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7022,7 +7022,7 @@
 	)
 	(global_label "MCI0-DET"
 		(shape output)
-		(at 144.78 110.49 180)
+		(at 123.19 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7032,7 +7032,7 @@
 		)
 		(uuid "3cba787b-b751-4e01-a18a-bdc72ea5e441")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.9674 110.4106 0)
+			(at 111.3774 69.7706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7430,7 +7430,7 @@
 	)
 	(global_label "MCI1-D1"
 		(shape bidirectional)
-		(at 54.61 22.86 180)
+		(at 40.64 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7440,7 +7440,7 @@
 		)
 		(uuid "63f7b96b-07e9-4b1d-86a2-28f446986f2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.7046 22.7806 0)
+			(at 29.7346 22.7806 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +7766,7 @@
 	)
 	(global_label "MCI1-D2"
 		(shape bidirectional)
-		(at 54.61 25.4 180)
+		(at 40.64 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7776,7 +7776,7 @@
 		)
 		(uuid "8f0d6381-d322-46cc-b62f-127c26eb1cd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.7046 25.3206 0)
+			(at 29.7346 25.3206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
