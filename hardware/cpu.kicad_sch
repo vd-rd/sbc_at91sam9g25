@@ -6564,6 +6564,30 @@
 			)
 		)
 	)
+	(global_label "NAND_CLE"
+		(shape input)
+		(at 237.49 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16dae635-3adf-4803-8988-011c3523c67d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.0705 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LCD-D21"
 		(shape output)
 		(at 232.41 72.39 180)
@@ -6985,30 +7009,6 @@
 		(uuid "391905f5-89a1-4a15-b439-d693b20e5592")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 222.3769 26.5906 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LCD-D16"
-		(shape output)
-		(at 232.41 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b49a9af-968b-4ac5-a418-d329aab7e3d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1674 59.6106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7452,30 +7452,6 @@
 			)
 		)
 	)
-	(global_label "LCD-D9"
-		(shape output)
-		(at 232.41 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e901bf8-ec67-437f-a78e-f0ef36f837f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.3769 41.8306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "I2C-SCL"
 		(shape bidirectional)
 		(at 54.61 96.52 180)
@@ -7620,6 +7596,30 @@
 			)
 		)
 	)
+	(global_label "NAND_ALE"
+		(shape input)
+		(at 237.49 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b95f398-31ed-4051-b051-5a0cb9bbbd16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.2519 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO1"
 		(shape bidirectional)
 		(at 227.33 144.78 180)
@@ -7729,6 +7729,30 @@
 		(uuid "85cc24ef-c30c-4d2d-8ee6-775747f8d77d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.1674 64.6906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_RE"
+		(shape input)
+		(at 237.49 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ae54990-25a4-44a0-a964-6a75eca664a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.0986 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7980,30 +8004,6 @@
 			)
 		)
 	)
-	(global_label "LCD-D0"
-		(shape output)
-		(at 232.41 19.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a05a33db-b20e-43cb-b757-63a3ec4cf3aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.3769 18.9706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SPI1-MISO"
 		(shape input)
 		(at 50.8 71.12 180)
@@ -8052,30 +8052,6 @@
 			)
 		)
 	)
-	(global_label "LCD-D8"
-		(shape output)
-		(at 232.41 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a78f92df-54bf-4edc-87ac-135257c4734a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.3769 39.2906 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SPI1-CLK"
 		(shape bidirectional)
 		(at 50.8 76.2 180)
@@ -8089,6 +8065,30 @@
 		(uuid "a78fcc47-3968-4348-b8c5-a78eb4ce0606")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.0479 76.1206 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_RDY"
+		(shape output)
+		(at 237.49 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8dea4ea-1061-41b2-a54d-cbb2e2b3ddab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.889 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8220,9 +8220,9 @@
 			)
 		)
 	)
-	(global_label "LCD-D1"
-		(shape output)
-		(at 232.41 21.59 180)
+	(global_label "NAND_WE"
+		(shape input)
+		(at 237.49 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8230,9 +8230,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c7d0653b-415d-4d3f-9110-b0d22f8a26c8")
+		(uuid "bea47039-d907-4203-ad2d-f0e5b35da8fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.3769 21.5106 0)
+			(at 225.9172 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,30 +8257,6 @@
 		(uuid "cab125c3-169e-41d6-8056-294c713b2c2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.1674 57.0706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LCD-D17"
-		(shape output)
-		(at 232.41 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "caee9759-c322-46ec-ac40-beafcfb465c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1674 62.1506 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,6 +8809,30 @@
 		(uuid "ed4d2fb5-3364-4f6c-b345-63e22f768e7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.8579 50.7206 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_NCS"
+		(shape input)
+		(at 237.49 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee0f4514-014a-47bf-adc2-cd054c795fa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.7076 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
