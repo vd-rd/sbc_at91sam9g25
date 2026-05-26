@@ -7547,6 +7547,30 @@
 			)
 		)
 	)
+	(global_label "I2C-SDA"
+		(shape bidirectional)
+		(at 43.18 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13c6c2db-25f1-436f-be25-73b075b00efa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.5421 92.6306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RMII-TXEN"
 		(shape bidirectional)
 		(at 63.5 173.99 180)
@@ -7568,6 +7592,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "I2C-SCL"
+		(shape bidirectional)
+		(at 76.2 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ae378f5-2f0d-40b7-bf64-7ba29d8358b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.4608 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8027,19 +8075,19 @@
 			)
 		)
 	)
-	(global_label "RSB-SDA"
-		(shape bidirectional)
-		(at 43.18 92.71 180)
+	(global_label "LCD-PWM"
+		(shape output)
+		(at 76.2 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "48e8f5e8-e259-4838-b20e-9537bc2667f6")
+		(uuid "4a36bee2-c4fd-414f-b193-b0840add3a42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.9722 92.6306 0)
+			(at 88.4985 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8047,7 +8095,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -8723,30 +8771,6 @@
 			)
 		)
 	)
-	(global_label "RSB-SCK"
-		(shape input)
-		(at 76.2 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a594ba70-4465-405c-99bf-b70b92c09257")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.5892 90.2494 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "BAT_GND"
 		(shape input)
 		(at 148.59 124.46 0)
@@ -9408,30 +9432,6 @@
 		(uuid "ecfaaac0-ecbf-40f7-8ee8-b99acc95747b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.7764 88.8206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "LCD_BL"
-		(shape input)
-		(at 76.2 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee1dc12d-7776-4091-9bb2-8dd76ac6f2be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.4469 135.9694 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
