@@ -1,5 +1,7 @@
 # Microchip AT91SAM9GX5 SBC
 
+![board_render](/assets/front.png)
+
 This board embeds a single core 400MHz ARM926EJ-S with up to 256MB DDR2) with MCP15601 PMIC, IO headers and microSD/eMMC storage. The board is also compatible with SAM9G15/G25/G35/X25/X35 microprocessors and the pins are routed keeping in mind features available on each part. The table below breaks down the features available on the board depending on the part used.
 
 |  Part  | LCD | Ethernet | CAN |
