@@ -571,7 +571,7 @@
         "microvia_drill": 0.1,
         "name": "ddr-ac",
         "pcb_color": "rgb(255, 90, 21)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "tuning_profile": "",
@@ -589,7 +589,7 @@
         "microvia_drill": 0.1,
         "name": "ddr-data-lower",
         "pcb_color": "rgb(194, 45, 255)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -607,7 +607,7 @@
         "microvia_drill": 0.1,
         "name": "ddr-data-upper",
         "pcb_color": "rgb(3, 255, 32)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -625,13 +625,20 @@
         "microvia_drill": 0.1,
         "name": "lcd-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "nand-lines",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       },
       {
         "bus_width": 12,
@@ -643,7 +650,7 @@
         "microvia_drill": 0.1,
         "name": "power-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": "",
@@ -661,7 +668,7 @@
         "microvia_drill": 0.1,
         "name": "rgmii-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -677,7 +684,7 @@
         "microvia_drill": 0.1,
         "name": "sdio-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.154,
         "tuning_profile": "",
@@ -692,7 +699,7 @@
         "microvia_drill": 0.1,
         "name": "usb-lines",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
@@ -825,6 +832,10 @@
       {
         "netclass": "usb-lines",
         "pattern": "/io-expansions/usb**"
+      },
+      {
+        "netclass": "nand-lines",
+        "pattern": "NAND**"
       }
     ]
   },
