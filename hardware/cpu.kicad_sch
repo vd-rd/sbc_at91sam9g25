@@ -6894,7 +6894,7 @@
 	)
 	(global_label "USB_DET"
 		(shape output)
-		(at 116.84 80.01 180)
+		(at 50.8 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6904,7 +6904,7 @@
 		)
 		(uuid "05dd279d-302a-493b-aa7c-25d56b1aab0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.6906 80.01 0)
+			(at 39.6506 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6942,7 +6942,7 @@
 	)
 	(global_label "GPIO4"
 		(shape bidirectional)
-		(at 50.8 76.2 180)
+		(at 54.61 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6952,7 +6952,7 @@
 		)
 		(uuid "0a43996c-71c5-434a-84c9-3b902683b286")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7021 76.1206 0)
+			(at 46.5121 88.8206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6966,7 +6966,7 @@
 	)
 	(global_label "SPI-CS"
 		(shape output)
-		(at 50.8 78.74 180)
+		(at 38.1 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6976,7 +6976,7 @@
 		)
 		(uuid "0ab65a36-f242-488f-b204-78a2620acaec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.2507 78.6606 0)
+			(at 28.5507 93.9006 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7038,7 +7038,7 @@
 	)
 	(global_label "LED-BLUE"
 		(shape output)
-		(at 54.61 88.9 180)
+		(at 50.8 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7048,7 +7048,7 @@
 		)
 		(uuid "13b33d21-536a-4a40-ad84-3dc069003341")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.4951 88.8206 0)
+			(at 38.6851 71.0406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7758,7 +7758,7 @@
 	)
 	(global_label "LED-RED"
 		(shape output)
-		(at 152.4 46.99 180)
+		(at 152.4 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7768,7 +7768,7 @@
 		)
 		(uuid "5a67e6b4-b1fe-47d5-b86b-b01992324c1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.3736 46.9106 0)
+			(at 141.3736 49.4506 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,17 +8118,17 @@
 	)
 	(global_label "AC_DET"
 		(shape output)
-		(at 146.05 80.01 0)
+		(at 50.8 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8d52017a-6e29-4c44-9ad6-f2f18c4261aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.3665 79.9306 0)
+			(at 41.102 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8136,7 +8136,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -8694,7 +8694,7 @@
 	)
 	(global_label "GPIO2"
 		(shape bidirectional)
-		(at 50.8 71.12 180)
+		(at 41.91 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8704,7 +8704,7 @@
 		)
 		(uuid "dc8f9c9d-aa4e-4854-93cd-c3c90c9455dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7021 71.0406 0)
+			(at 33.8121 104.0606 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8718,7 +8718,7 @@
 	)
 	(global_label "LED-GREEN"
 		(shape output)
-		(at 152.4 49.53 180)
+		(at 152.4 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8728,7 +8728,7 @@
 		)
 		(uuid "deadd0b3-0247-4f9d-bca7-4f47c47225aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.8941 49.4506 0)
+			(at 138.8941 46.9106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
