@@ -9842,7 +9842,7 @@
 			)
 		)
 	)
-	(global_label "VDD_3V3"
+	(global_label "VDD-IO"
 		(shape input)
 		(at 30.48 118.11 180)
 		(fields_autoplaced yes)
@@ -9852,9 +9852,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1b2c2f6a-8147-466a-acdf-b95b36731731")
+		(uuid "2913ebd5-e39e-4d55-a4ce-7fcad37e7520")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.391 118.11 0)
+			(at 20.3585 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9951,6 +9951,30 @@
 		(uuid "3d2b3d63-986e-455a-8289-e2ffd62b4c52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.0286 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VDD-IO"
+		(shape input)
+		(at 29.21 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4eab3a22-6074-4fab-970d-ea0142d83dcd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.0885 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10359,30 +10383,6 @@
 		(uuid "cff184d2-ca92-4df8-8d77-ae52fa3fe67f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.6572 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VDD_3V3"
-		(shape input)
-		(at 29.21 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d65aea91-6d51-4d68-8385-833c0a68e48e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.121 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

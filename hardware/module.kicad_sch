@@ -1340,30 +1340,6 @@
 		)
 		(uuid "6c4213a7-f996-43f0-8f8c-90350c5f17f1")
 	)
-	(global_label "+3V3"
-		(shape input)
-		(at 48.26 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c9df6e1-62bb-49b7-8489-12d23971bdf3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.7669 138.5094 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "USB1-D-"
 		(shape bidirectional)
 		(at 54.61 143.51 180)
@@ -1377,6 +1353,30 @@
 		(uuid "30f61a62-a176-4696-8321-4e02be5a175e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.8579 143.4306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VDD-IO"
+		(shape output)
+		(at 48.26 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abc03a9e-7b06-4069-8a63-962c32a8d2c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1385 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
