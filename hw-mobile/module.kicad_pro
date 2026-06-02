@@ -52,22 +52,22 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
+          "border_hatch_pitch": 0.508,
+          "corner_radius": 0.4,
+          "corner_smoothing": 2,
+          "fill_mode": 1,
+          "hatch_gap": 0.5,
           "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
+          "hatch_smoothing_level": 2,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
+          "hatch_thickness": 0.5,
           "min_clearance": 0.3,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.16,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -77,7 +77,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|109665000|62325001|61cf6677-d5c5-4456-9f13-19dc704cd332|7d2933d0-0311-4815-b332-ec52e4ca3bd8",
+          ""
+        ],
+        [
+          "clearance|113180000|74140000|67072257-16e6-4fcb-a384-9eec03c0250f|bff5eb00-9a96-4493-b199-d49c5354fa45",
+          ""
+        ],
+        [
+          "clearance|113750000|66820000|8be0087e-7cf6-4199-bb1f-423534121119|a81575ea-aa25-4492-b3da-10b62a26231e",
+          ""
+        ],
+        [
+          "clearance|115900000|66820000|99ab30ae-bfbe-492f-96fc-a9cdcae3fb95|9be03905-e655-4332-a612-3e64db2955a8",
+          ""
+        ],
+        [
+          "clearance|117580000|73750000|2428d7ba-4a71-400b-9d59-a384c28b89ac|710f93fb-f664-4091-9725-6fc311f14da5",
+          ""
+        ],
+        [
+          "clearance|117920000|67490000|bc1b9e0a-8107-444c-a765-e525ef113b4f|da07ffac-db8f-4a11-ab32-3f269ff4e2e7",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|163990000|79015000|0207ff40-20c7-4eb6-afaa-695b037ecab5|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -153,7 +182,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1016,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.4,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.14,
         "min_hole_to_hole": 0.2,
@@ -163,9 +192,9 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1016,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.075,
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -261,6 +290,10 @@
         },
         {
           "diameter": 0.4,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.45,
           "drill": 0.3
         },
         {
@@ -544,7 +577,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -563,7 +596,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.1016,
         "line_style": 0,
@@ -581,7 +614,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.1016,
         "line_style": 0,
@@ -599,7 +632,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.1016,
         "line_style": 0,
@@ -617,7 +650,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.1016,
         "line_style": 0,
@@ -642,7 +675,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -660,7 +693,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.1016,
         "line_style": 0,
@@ -677,7 +710,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.127,
         "microvia_diameter": 0.3,
@@ -692,7 +725,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.195,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.127,
         "microvia_diameter": 0.3,
@@ -831,7 +864,7 @@
       },
       {
         "netclass": "usb-lines",
-        "pattern": "/io-expansions/usb**"
+        "pattern": "/IO expansions/usb-**"
       },
       {
         "netclass": "nand-lines",
@@ -980,7 +1013,7 @@
         "uuid": "f9052a23-a9ac-4995-b13e-9ff37e7218df"
       }
     ],
-    "used_designators": "U800,TH1,R7-8,R27-31,R803-806,L800-802,D3,C801-817,C819,#PWR24-25,#PWR107,#PWR110-111,#PWR114,#PWR122,#PWR124-125,#PWR127-129,#PWR133-137,#PWR141-145",
+    "used_designators": "C37",
     "variants": []
   },
   "sheets": [
