@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "f9052a23-a9ac-4995-b13e-9ff37e7218df")
 	(paper "A4")
+	(title_block
+		(title "AT91SAM9G25 SBC")
+		(date "2026-07-13")
+		(company "vd-rd")
+	)
 	(lib_symbols
 		(symbol "Device:Antenna_Shield"
 			(pin_numbers
@@ -774,8 +779,8 @@
 		)
 	)
 	(rectangle
-		(start 157.48 63.754)
-		(end 182.88 107.95)
+		(start 124.46 55.88)
+		(end 144.78 62.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -784,11 +789,11 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid "07567c9d-4d24-46e8-b594-52b46b5d90dd")
+		(uuid "0684c1a4-9c48-440c-b39c-9d27973e9b59")
 	)
 	(rectangle
-		(start 259.08 59.69)
-		(end 281.94 113.03)
+		(start 167.64 57.15)
+		(end 179.07 63.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -797,11 +802,11 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid "126c8e45-d6a7-40c5-9ac4-5c01bd45a481")
+		(uuid "09e5a963-3504-453b-bdf8-fdbd6474a3aa")
 	)
 	(rectangle
-		(start 129.54 68.58)
-		(end 149.86 74.93)
+		(start 153.67 54.61)
+		(end 179.07 91.186)
 		(stroke
 			(width 0)
 			(type default)
@@ -810,11 +815,11 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid "5a2f93e0-1c61-43d0-b853-faf808ee34cd")
+		(uuid "80432074-0d2f-483c-a590-88dfc9fc7988")
 	)
 	(rectangle
-		(start 171.45 98.044)
-		(end 182.88 104.394)
+		(start 213.36 59.436)
+		(end 238.76 72.136)
 		(stroke
 			(width 0)
 			(type default)
@@ -823,11 +828,11 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid "a4aac272-8d68-41d2-8a55-d0641505297a")
+		(uuid "8218d209-9175-4f9d-a6f4-e9c0877555b5")
 	)
 	(rectangle
-		(start 171.45 66.294)
-		(end 182.88 72.644)
+		(start 257.048 40.386)
+		(end 279.908 106.426)
 		(stroke
 			(width 0)
 			(type default)
@@ -836,24 +841,24 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid "b44de1bb-4def-49e5-9b5a-2db650e311ee")
+		(uuid "8d7cef8a-c6ff-4cf0-b8f0-855a1ecd92e2")
 	)
 	(rectangle
-		(start 215.9 107.95)
-		(end 241.3 95.25)
+		(start 213.36 93.726)
+		(end 238.76 106.426)
 		(stroke
 			(width 0)
-			(type default)
+			(type dot)
 		)
 		(fill
 			(type color)
-			(color 255 153 0 1)
+			(color 255 229 191 1)
 		)
-		(uuid "b75805f8-3a94-4def-b9ee-a21ae5d2d3ed")
+		(uuid "a78485d2-e40a-42d8-b391-3f2306115e60")
 	)
 	(rectangle
-		(start 171.45 90.424)
-		(end 182.88 96.774)
+		(start 213.36 42.926)
+		(end 238.76 55.626)
 		(stroke
 			(width 0)
 			(type default)
@@ -862,11 +867,11 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid "dd79d86c-8aa1-4e66-ae70-251ebbd627dd")
+		(uuid "c2b4702f-e195-48a2-884b-4e6124df9b02")
 	)
 	(rectangle
-		(start 215.9 62.23)
-		(end 241.3 74.93)
+		(start 167.64 72.39)
+		(end 179.07 78.74)
 		(stroke
 			(width 0)
 			(type default)
@@ -875,98 +880,63 @@
 			(type color)
 			(color 255 153 0 1)
 		)
-		(uuid "fa07fd5d-6d53-42cc-a7be-80b5c261d1be")
+		(uuid "d078bb24-5c90-4ced-bb71-d9f8ff8231cc")
 	)
-	(text "NOR Flash"
-		(exclude_from_sim no)
-		(at 236.22 102.87 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify right bottom)
+	(rectangle
+		(start 124.46 66.04)
+		(end 144.78 72.39)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "05bd0ac6-2454-4733-8031-befdd232e815")
-	)
-	(text "CPU\nATMEL/\nMicrochip\nAT91SAM9G10"
-		(exclude_from_sim no)
-		(at 270.002 85.09 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
+		(fill
+			(type color)
+			(color 255 153 0 1)
 		)
-		(uuid "1d934064-d9c0-488b-9ce8-8ddc6f5361c5")
+		(uuid "d0e497fb-d2d6-4630-a055-46a1a82fb27f")
 	)
-	(text "SDIO"
-		(exclude_from_sim no)
-		(at 254 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(rectangle
+		(start 167.64 64.77)
+		(end 179.07 71.12)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "22f1e511-ab42-48d6-9e2e-b9e01da211e2")
-	)
-	(text "VddSYS"
-		(exclude_from_sim no)
-		(at 187.198 69.342 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
+		(fill
+			(type color)
+			(color 255 153 0 1)
 		)
-		(uuid "26f20230-5689-48df-b142-fdaabdd31185")
+		(uuid "e48c5919-21bf-47c2-b2f8-f9f7b28f18d5")
 	)
-	(text "MCP16501"
-		(exclude_from_sim no)
-		(at 159.766 97.79 90)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
+	(rectangle
+		(start 213.36 75.946)
+		(end 238.76 88.646)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "4c92bd4d-0d0e-429e-b512-d9e1a22946aa")
-	)
-	(text "VddCORE (+1.2V)"
-		(exclude_from_sim no)
-		(at 187.452 92.964 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
+		(fill
+			(type color)
+			(color 255 153 0 1)
 		)
-		(uuid "a2614366-6dc4-4f05-9ade-6ceeffb51a66")
+		(uuid "f065cdad-024d-46ad-aa30-3640180f1ded")
 	)
-	(text " MicroSD\nConnector"
-		(exclude_from_sim no)
-		(at 236.22 71.12 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify right bottom)
+	(rectangle
+		(start 167.64 81.28)
+		(end 179.07 87.63)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "aadbb6fb-8d36-4efb-a24e-47db03f1cd6c")
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(uuid "f0f9dd76-696c-4391-b6da-7318ce4936c0")
 	)
-	(text "USB-Power"
+	(text "DCDC2"
 		(exclude_from_sim no)
-		(at 139.7 72.136 0)
+		(at 173.228 68.326 0)
 		(effects
 			(font
 				(size 2 2)
@@ -974,11 +944,11 @@
 				(bold yes)
 			)
 		)
-		(uuid "c6a0457e-c731-4cb2-a2a2-6ffd832d551e")
+		(uuid "1393780f-9c2b-448c-b24e-b0b72133896d")
 	)
-	(text "LDO1"
+	(text "ACIN"
 		(exclude_from_sim no)
-		(at 177.038 93.98 0)
+		(at 134.62 69.596 0)
 		(effects
 			(font
 				(size 2 2)
@@ -986,55 +956,227 @@
 				(bold yes)
 			)
 		)
-		(uuid "c8c2dd6e-12ab-45cf-aa80-f5fc911ae2b0")
-	)
-	(text "VddIO (+3.3V)"
-		(exclude_from_sim no)
-		(at 187.96 100.33 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "df9601f7-bac4-40f7-8189-f1fd60a5ff57")
-	)
-	(text "LDO2"
-		(exclude_from_sim no)
-		(at 177.038 101.6 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "e147f532-049c-4771-bd13-c9786f2c7beb")
-	)
-	(text "DCDC1"
-		(exclude_from_sim no)
-		(at 177.038 69.85 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "e3041f17-30b0-48c4-820a-337f13e6a8b0")
+		(uuid "2f71dcbf-bfda-4fd8-94c5-89e57af07222")
 	)
 	(text "SPI"
 		(exclude_from_sim no)
-		(at 254 100.33 0)
+		(at 251.968 81.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f0054c4f-6e4c-4a8d-b7e1-db8081211a27")
+		(uuid "309e09e9-036c-4e64-bf26-068684bc5008")
+	)
+	(text "USB-Power"
+		(exclude_from_sim no)
+		(at 134.62 59.436 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "4066f255-2cd5-41e3-87b5-d5e5d4bb0d6f")
+	)
+	(text "MCP16501"
+		(exclude_from_sim no)
+		(at 155.956 80.01 90)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "46c52d3d-93d3-497e-939d-9d10fab8abb3")
+	)
+	(text "RMII"
+		(exclude_from_sim no)
+		(at 251.46 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "470e0fc3-1bcf-4cbe-b5f1-a2b70f59375c")
+	)
+	(text "WiFI/BT\n Combo"
+		(exclude_from_sim no)
+		(at 232.41 68.326 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d51ca1a-6d42-45ef-bf9d-9609acfc316b")
+	)
+	(text "Ethernet"
+		(exclude_from_sim no)
+		(at 232.41 102.616 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "61c773eb-66d3-4efd-baa3-0be41da9d7ab")
+	)
+	(text "Vcore(+1.0V)"
+		(exclude_from_sim no)
+		(at 184.15 74.676 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "63146995-c1c8-42ec-9d06-9ce5125353ca")
+	)
+	(text "Vio (+3.3V)"
+		(exclude_from_sim no)
+		(at 184.15 59.436 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "673a576d-0c11-460b-b09a-33e5a376ace5")
+	)
+	(text "USB\n"
+		(exclude_from_sim no)
+		(at 251.968 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ad98bb8-e238-41c7-8b9d-fd37da6f0e92")
+	)
+	(text " MicroSD\nConnector"
+		(exclude_from_sim no)
+		(at 233.68 51.816 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bb8b75f-ce29-4360-b69e-64e32cd26d8a")
+	)
+	(text "Vddr(+1.8V)"
+		(exclude_from_sim no)
+		(at 184.15 67.31 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7136f284-2e22-43af-ac86-84b115a456ed")
+	)
+	(text "CPU\nMicrochip\nAT91SAM9G25"
+		(exclude_from_sim no)
+		(at 268.732 73.66 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "9683ea5a-1ca8-4dd7-87dd-c38c869d1e58")
+	)
+	(text "SDIO"
+		(exclude_from_sim no)
+		(at 251.968 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a7a0ef3-ced2-4042-b18e-681c726ec83e")
+	)
+	(text "DCDC3"
+		(exclude_from_sim no)
+		(at 173.228 75.946 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "9e5f8027-6e40-4a29-8ea5-92cefab2462b")
+	)
+	(text "DCDC1"
+		(exclude_from_sim no)
+		(at 173.228 60.706 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "b4f8514a-ce44-495f-98c7-aeed8a1a1ce3")
+	)
+	(text "LDO1"
+		(exclude_from_sim no)
+		(at 173.228 84.836 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "be1dbb89-6fc0-4561-9a1e-3a4c0cd6b7b8")
+	)
+	(text "Vana (+1.0V)"
+		(exclude_from_sim no)
+		(at 184.658 82.804 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed990214-840b-445f-87e1-c97cc2252e64")
+	)
+	(text "NOR Flash"
+		(exclude_from_sim no)
+		(at 233.68 83.566 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2d77cd2-3336-45b7-b137-4cac43d05040")
 	)
 	(junction
 		(at 73.66 149.86)
@@ -1062,13 +1204,13 @@
 	)
 	(polyline
 		(pts
-			(xy 168.148 102.87) (xy 170.688 102.87)
+			(xy 153.67 59.436) (xy 144.78 59.436)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "00718609-cafa-4bdf-bc68-8d33c8177ee7")
+		(uuid "0052f91b-10ab-4c74-a963-1cace7d1c45a")
 	)
 	(wire
 		(pts
@@ -1079,6 +1221,16 @@
 			(type default)
 		)
 		(uuid "06b3121c-97a9-486b-99ba-e4b18eb255a1")
+	)
+	(polyline
+		(pts
+			(xy 256.54 49.276) (xy 238.76 49.276)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "070b48fb-96ab-4b5f-80ad-a948c79b1680")
 	)
 	(wire
 		(pts
@@ -1100,16 +1252,6 @@
 		)
 		(uuid "1584a946-3b43-44f1-8797-b7052f19a938")
 	)
-	(polyline
-		(pts
-			(xy 167.64 71.12) (xy 167.64 102.87)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "16c0d596-1812-467c-8bda-382aaa6a1ba7")
-	)
 	(wire
 		(pts
 			(xy 59.69 144.78) (xy 59.69 138.43)
@@ -1122,23 +1264,13 @@
 	)
 	(polyline
 		(pts
-			(xy 259.08 101.6) (xy 241.3 101.6)
+			(xy 164.338 69.596) (xy 166.878 69.596)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "19578df4-8458-4489-ada6-013250fcfc89")
-	)
-	(polyline
-		(pts
-			(xy 167.64 71.12) (xy 149.86 71.12)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "2bdabb55-1e95-4af0-9908-24ec27a1c380")
+		(uuid "1ed86e98-19fa-4f96-86fb-d43c853bd791")
 	)
 	(wire
 		(pts
@@ -1152,33 +1284,53 @@
 	)
 	(polyline
 		(pts
-			(xy 168.148 95.25) (xy 170.688 95.25)
+			(xy 256.54 100.076) (xy 238.76 100.076)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "3d57d06b-9d9f-4c68-9043-e60da75619c9")
+		(uuid "3849b488-37ca-42e7-bff9-991ac86fd45e")
 	)
 	(polyline
 		(pts
-			(xy 200.66 101.854) (xy 182.88 101.854)
+			(xy 164.338 61.976) (xy 166.878 61.976)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "539a2ab8-9eb0-40ed-a5e4-737b5a261935")
+		(uuid "4254d5a0-1bd7-494c-b76e-55c1b2ab5e19")
 	)
 	(polyline
 		(pts
-			(xy 259.08 68.58) (xy 241.3 68.58)
+			(xy 153.67 69.596) (xy 154.94 69.596)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "5fe85a47-8eae-4c6a-ba1b-1ee4c0dd44c2")
+		(uuid "5718e80c-9c66-425b-a9d4-61ec1b5f4fea")
+	)
+	(polyline
+		(pts
+			(xy 164.338 77.216) (xy 166.878 77.216)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "7358a85d-c4e4-4a67-825a-4e838faada6c")
+	)
+	(polyline
+		(pts
+			(xy 196.85 60.198) (xy 179.07 60.198)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "7ab7860d-a694-45ee-b2f0-b59665557500")
 	)
 	(wire
 		(pts
@@ -1189,6 +1341,16 @@
 			(type default)
 		)
 		(uuid "7def3002-517a-4c37-94b4-3c276ac9d33c")
+	)
+	(polyline
+		(pts
+			(xy 154.94 69.596) (xy 163.83 69.596)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "859f48f9-44d2-4017-984c-3e100178e356")
 	)
 	(wire
 		(pts
@@ -1220,6 +1382,16 @@
 		)
 		(uuid "8b78debb-7f16-4038-bf69-2b2345efe3b6")
 	)
+	(polyline
+		(pts
+			(xy 153.67 59.436) (xy 163.83 59.436)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "9084e783-63c9-4c48-981a-eedd908b6db8")
+	)
 	(wire
 		(pts
 			(xy 48.26 138.43) (xy 59.69 138.43)
@@ -1242,23 +1414,13 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 69.85) (xy 182.88 69.85)
+			(xy 256.54 82.296) (xy 238.76 82.296)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "ac0c8d9e-f40c-46bc-856e-cf490faac62f")
-	)
-	(polyline
-		(pts
-			(xy 200.66 86.614) (xy 182.88 86.614)
-		)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(uuid "b1a8e390-6fb1-4d05-8e8e-396fd527f947")
+		(uuid "a614707a-307a-43e4-9942-8c9129d547d5")
 	)
 	(wire
 		(pts
@@ -1302,43 +1464,73 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 94.234) (xy 182.88 94.234)
+			(xy 164.338 86.106) (xy 166.878 86.106)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "cd59438d-0f38-447f-8e09-9edf2484790b")
+		(uuid "cb3442d1-b208-448d-9885-e0d482599ccf")
 	)
 	(polyline
 		(pts
-			(xy 167.64 71.12) (xy 170.688 71.12)
+			(xy 153.67 69.596) (xy 144.78 69.596)
 		)
 		(stroke
 			(width 1)
 			(type default)
 		)
-		(uuid "ec7687ef-304e-4b90-8b8d-deffc125f8e1")
+		(uuid "d3d8bbff-4458-432b-a98b-ca30e1960652")
 	)
-	(label "usb-b-"
-		(at 36.83 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(polyline
+		(pts
+			(xy 196.85 84.836) (xy 179.07 84.836)
 		)
-		(uuid "4bea65b3-1922-46bc-bdd3-94cc058cc713")
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "daacad70-5997-4203-b2ec-1651a2dc9fbe")
 	)
-	(label "usb-b+"
-		(at 36.83 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(polyline
+		(pts
+			(xy 163.83 59.436) (xy 163.83 86.106)
 		)
-		(uuid "6c4213a7-f996-43f0-8f8c-90350c5f17f1")
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "eace23bc-a99b-4e86-a632-896823d02717")
+	)
+	(polyline
+		(pts
+			(xy 196.85 75.438) (xy 179.07 75.438)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "f43dd83d-4199-43ff-b9d4-4961a8b9e499")
+	)
+	(polyline
+		(pts
+			(xy 256.54 65.786) (xy 238.76 65.786)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "f6dee75e-05dd-4487-95de-521141fc9dac")
+	)
+	(polyline
+		(pts
+			(xy 196.85 68.072) (xy 179.07 68.072)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "fc8437c8-7734-4225-89d0-0d6522feeb37")
 	)
 	(global_label "USB1-D-"
 		(shape bidirectional)
