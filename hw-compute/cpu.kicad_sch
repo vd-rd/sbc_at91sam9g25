@@ -5078,16 +5078,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 144.78) (xy 237.49 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148ca056-7b49-4322-aa75-c0d4e92a39f8")
-	)
-	(wire
-		(pts
 			(xy 227.33 162.56) (xy 237.49 162.56)
 		)
 		(stroke
@@ -5378,6 +5368,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 124.46) (xy 237.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473ac2d6-c221-4d0b-99a5-e2180752b4ae")
+	)
+	(wire
+		(pts
 			(xy 227.33 157.48) (xy 237.49 157.48)
 		)
 		(stroke
@@ -5415,6 +5415,16 @@
 			(type solid)
 		)
 		(uuid "526f8064-182c-42da-aa7c-35115148555a")
+	)
+	(wire
+		(pts
+			(xy 227.33 129.54) (xy 237.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529323c6-9282-4fdb-ad6e-fc76607db684")
 	)
 	(wire
 		(pts
@@ -5498,13 +5508,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 149.86) (xy 237.49 149.86)
+			(xy 227.33 137.16) (xy 237.49 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63576701-d81f-4782-9f4c-673d6c6cfbf7")
+		(uuid "643305b8-45a4-4d2f-a7b8-0098c988b955")
 	)
 	(wire
 		(pts
@@ -5558,6 +5568,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 149.86) (xy 237.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72da5f9c-bb26-43c1-bde7-33fbdb797210")
+	)
+	(wire
+		(pts
+			(xy 227.33 132.08) (xy 237.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7342e8f0-88cb-406b-bb97-7fe13f832502")
+	)
+	(wire
+		(pts
 			(xy 227.33 160.02) (xy 237.49 160.02)
 		)
 		(stroke
@@ -5608,13 +5638,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 147.32) (xy 237.49 147.32)
+			(xy 227.33 134.62) (xy 237.49 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81ed8ce3-1898-4132-a738-bf8dc0c654e2")
+		(uuid "827f5027-c3fa-40c2-8d93-2304219ca532")
 	)
 	(wire
 		(pts
@@ -5738,6 +5768,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 139.7) (xy 237.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf88d17-9d65-4c47-9405-615086fd2653")
+	)
+	(wire
+		(pts
 			(xy 54.61 50.8) (xy 68.58 50.8)
 		)
 		(stroke
@@ -5838,6 +5878,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 147.32) (xy 237.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04ee7d7-db29-45f6-a7a2-2b9a9f22bf8b")
+	)
+	(wire
+		(pts
+			(xy 227.33 142.24) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3443f7b-03f0-47bc-8542-8c96ccb12475")
+	)
+	(wire
+		(pts
 			(xy 54.61 35.56) (xy 68.58 35.56)
 		)
 		(stroke
@@ -5855,6 +5915,16 @@
 			(type default)
 		)
 		(uuid "c5fc4254-c6c9-4342-bd75-bab5e5f6e10c")
+	)
+	(wire
+		(pts
+			(xy 217.17 144.78) (xy 237.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84b170d-b277-4e4f-9abf-b01894b40c9f")
 	)
 	(wire
 		(pts
@@ -5905,6 +5975,16 @@
 			(type solid)
 		)
 		(uuid "d1b6a84f-b065-4f8b-8450-a069799ce1be")
+	)
+	(wire
+		(pts
+			(xy 227.33 127) (xy 237.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bfcc27-8a10-44d2-9a65-8b49bec6b41b")
 	)
 	(wire
 		(pts
@@ -6886,6 +6966,30 @@
 			)
 		)
 	)
+	(global_label "NAND04"
+		(shape bidirectional)
+		(at 227.33 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "184d2674-e25c-45d5-882a-927917980598")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4783 134.5406 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RMII-TX0"
 		(shape bidirectional)
 		(at 152.4 41.91 180)
@@ -6971,6 +7075,30 @@
 		(uuid "1cb541c8-0184-4aee-80a0-a5a10d3aff37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.0969 44.3706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_ALE"
+		(shape input)
+		(at 237.49 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f94af5f-5113-4a0d-bc9e-8f0670451925")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.2519 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7078,6 +7206,54 @@
 			)
 		)
 	)
+	(global_label "NAND03"
+		(shape bidirectional)
+		(at 227.33 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f1560f0-4c10-41cd-b653-aee62bac0708")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4783 132.0006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND06"
+		(shape bidirectional)
+		(at 227.33 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f2e189c-55de-46f2-a2ca-a6c8bd79c61b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4783 139.6206 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MCI0-D3"
 		(shape bidirectional)
 		(at 50.8 68.58 180)
@@ -7091,6 +7267,30 @@
 		(uuid "33ea133b-fd0d-45bb-83ea-ab22c4ee4d3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.8946 68.5006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_NCS"
+		(shape input)
+		(at 237.49 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "386243e8-6857-41f7-a6f1-a03036e1c109")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.7076 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,6 +7422,30 @@
 			)
 		)
 	)
+	(global_label "NAND02"
+		(shape bidirectional)
+		(at 227.33 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4de2aae2-ea19-47c3-9664-4efdcf6839a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4783 129.4606 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI0-MOSI"
 		(shape output)
 		(at 54.61 48.26 180)
@@ -7294,6 +7518,54 @@
 			)
 		)
 	)
+	(global_label "NAND05"
+		(shape bidirectional)
+		(at 227.33 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ac67b72-f2e3-4051-a86b-8d607ac10c88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4783 137.0806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_RDY"
+		(shape output)
+		(at 237.49 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6055629f-6c21-45ed-ad8f-6e2b386c4763")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.889 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "I2C-SCL"
 		(shape bidirectional)
 		(at 54.61 96.52 180)
@@ -7307,6 +7579,30 @@
 		(uuid "6f1f0aa1-00b0-430a-ae4c-ed254c5dcd57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.0326 96.4406 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_CLE"
+		(shape input)
+		(at 237.49 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7267efe7-58c7-46ef-81e7-e9dfb058136e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.0705 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,6 +8022,102 @@
 			)
 		)
 	)
+	(global_label "NAND07"
+		(shape bidirectional)
+		(at 227.33 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfb8dd80-5d54-4952-8624-c1cc94ec8e53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4783 142.1606 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_RE"
+		(shape input)
+		(at 237.49 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bff91621-f578-4077-b6dc-b704de720d0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.0986 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND00"
+		(shape bidirectional)
+		(at 227.33 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2ae7fce-0cab-4fee-81b3-58493aee783e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4783 124.3806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND_WE"
+		(shape input)
+		(at 237.49 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caff01ee-4114-4c86-a697-d40a08aa6a50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.9172 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RMII-TXEN"
 		(shape bidirectional)
 		(at 152.4 36.83 180)
@@ -7883,6 +8275,30 @@
 		(uuid "deadd0b3-0247-4f9d-bca7-4f47c47225aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.8941 46.9106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NAND01"
+		(shape bidirectional)
+		(at 227.33 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfeff3b8-e4d7-4f35-8d33-5359109c6231")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4783 126.9206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1013,7 +1013,7 @@
         "uuid": "f9052a23-a9ac-4995-b13e-9ff37e7218df"
       }
     ],
-    "used_designators": "C37",
+    "used_designators": "#PWR26-27,C30,C32,C37,C39,R23-24,U3",
     "variants": []
   },
   "sheets": [
